@@ -1,6 +1,9 @@
 * {
   margin: 0;
 }
+.services .header .about-us .testimonial .contact{
+  overflow: hidden;
+}
 .navbar-toggler{
   background-color: white;
   border: 1px solid white;
@@ -146,7 +149,6 @@ li {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    width: 100vw;
 }
 .title {
   font-size: 50px;
