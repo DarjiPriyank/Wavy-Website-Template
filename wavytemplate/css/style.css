@@ -333,7 +333,68 @@ footer p{
 
 
 }
+@media only screen and (max-width: 1080px) {
+  .title-2 {
+    font-size: 30px;
+  }
+  .title{
+    font-size: 50px;
+  }
+  .img-banner {
+  }
+  .wave {
+    height:100%;
+    width:100%;
+  }
+  .wave-bottom {
+    margin-bottom:-2px;
+  }
+  .wave-up {
+    margin-top:-15px;
+  }
+  .bg-img {
+      width:100%;
+      vertical-align: center;
+  }
+  .header {
+    height: 40vh;
+  }
+  .team {
+    height: 80vh;
+  }
+  .contact-us .img-contact{
+    margin-top:50px;
+    margin-left:-50px;
+    height:250px;width:300px;
+  }
+  .contact-form input {
+    margin-left: 50px;
+  }
+  .contact-form textarea {
+    margin-left: 50px;
+  }
+  .nav-link:hover:after {
+    color: white;
+    width: 20%;
+  }
 
+  .name .designation {
+    margin-left: 40px;
+    text-align: center;
+  }
+  .para {
+    font-size: 20px;
+  }
+  .services {
+    height: 90vh;
+  }
+  .about-us{
+    height: 120vh;
+  }
+  .text-sz-25 {
+    font-size: 30px;
+  }
+}
 /* Media Queries: Tabled Portrait */
 @media only screen and (max-width: 720px) {
   .title-2 {
