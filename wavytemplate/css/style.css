@@ -400,16 +400,50 @@ footer p{
 /* Media Queries: Tabled Portrait */
 @media only screen and (max-width: 720px) {
   .title-2 {
-    font-size: 30px;
+    font-size: 32px;
   }
   .title{
+    font-size: 32px;
+  }
+  .header .title {
+    text-align: justify;
     font-size: 30px;
   }
-  .img-banner {
-    margin-left: 30px;
-    height:400px;
-    width:450px;
+  .header .subtitle{
+    text-align: justify;
+    font-size: 25px;
   }
+  .header-content .img-banner {
+    margin-top: 70px;
+    margin-left: 30px;
+    height:270px;
+    width:270px;
+  }
+  .img-banner {
+    margin-left: 10px;
+    height:300px;
+    width:320px;
+  }
+  .about-us{
+    height: 100vh;
+  }
+  .subtitle-2 {
+    font-size: 27px;
+  }
+  .text-sz-25 {
+    font-size: 20px;
+  }
+  .services {
+    height: 250vh;
+  }
+  .services-title {
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .services .para {
+    font-size:18px;
+  }
+
   .wave {
     height:100%;
     width:100%;
@@ -425,12 +459,13 @@ footer p{
       vertical-align: center;
   }
   .header {
-    height: 60vh;
+    height: 120vh;
   }
   .contact-us .img-contact{
     margin-top:50px;
     margin-left:-50px;
-    height:250px;width:300px;
+    height:250px;
+    width:300px;
   }
   .contact-form input {
     margin-left: 50px;
@@ -443,7 +478,10 @@ footer p{
     width: 20%;
   }
   .team {
-    height: 80vh;
+    height: 220vh;
+  }
+  .contact-us {
+    height:130vh;
   }
   .name .designation {
     margin-left: 40px;
@@ -452,14 +490,7 @@ footer p{
   .para {
     font-size: 20px;
   }
-  .services {
-    height: 90vh;
-  }
-  .about-us{
-    height: 90vh;
-  }
-  .text-sz-25 {
-    font-size: 30px;
-  }
+
+
 }
 /* box-shadow: 0 4px 6px -5px hsl(0, 0%, 40%), inset 0px 4px 6px -5px black; */
